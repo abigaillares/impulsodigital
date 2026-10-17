@@ -65,7 +65,7 @@ document.addEventListener("keydown", event => {
 function crearLinkWhatsapp(mensaje) {
   const numero = CONFIG.whatsapp.replace(/\D/g, "");
 
-  return `https://wa.me/${numero}?text=${encodeURIComponent(mensaje)}`;
+  return `https://wa.me/${+541130009375}?text=${encodeURIComponent(mensaje)}`;
 }
 
 const botonesWhatsapp = document.querySelectorAll(
